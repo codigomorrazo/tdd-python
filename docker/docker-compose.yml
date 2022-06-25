@@ -1,7 +1,7 @@
 version: '3.3'
 services: 
   python39:
-    image: python:3.9.12-slim-bullseye
+    image: python:3.10.5-slim-bullseye
     working_dir: ${IMAGE_WORKDIR}
     environment:
       - .env
